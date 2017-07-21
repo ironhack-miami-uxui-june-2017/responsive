@@ -1,0 +1,38 @@
+.centered-in-the-middle {
+  background-color: azure;
+  border: 2px dotted deeppink;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.stop-shrinking {
+  width: 25%;
+  min-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 1000px) {
+  /* everyting inside these curlies is for 1000px + */
+
+  .centered-in-the-middle {
+    background-color: rebeccapurple;
+    border-color: mediumturquoise;
+    color: white;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+
+}
+
+
+@media (min-width: 2000px) {
+
+  h1 {
+    font-size: 150px;
+  }
+
+}
