@@ -1,3 +1,14 @@
+.row {
+  border: 2px dotted deeppink;
+}
+
+.col-md-1,
+.col-md-4,
+.col-md-6,
+.col-md-8 {
+  border: 1px solid rebeccapurple;
+}
+
 .centered-in-the-middle {
   background-color: azure;
   border: 2px dotted deeppink;
@@ -49,6 +60,10 @@ ul {
     font-size: 100px;
   }
 
+  p {
+    font-size: 20px;
+  }
+
   .box {
     width: 50%;
     box-sizing: border-box;
@@ -62,6 +77,10 @@ ul {
 
   h1 {
     font-size: 150px;
+  }
+
+  p {
+    font-size: 50px;
   }
 
   .box {
