@@ -12,6 +12,29 @@
   margin: 0 auto;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.box {
+  padding: 20px;
+}
+
+.impact {
+  background-color: black;
+  color: white;
+}
+
+.synergy {
+  background-color: orange;
+  color: olivedrab;
+}
+
+.humps {
+  background-color: blanchedalmond;
+}
+
 
 @media (min-width: 1000px) {
   /* everyting inside these curlies is for 1000px + */
@@ -26,6 +49,12 @@
     font-size: 100px;
   }
 
+  .box {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+  }
+
 }
 
 
@@ -33,6 +62,10 @@
 
   h1 {
     font-size: 150px;
+  }
+
+  .box {
+    width: 33.3333%;
   }
 
 }
